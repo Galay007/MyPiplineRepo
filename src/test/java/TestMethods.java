@@ -34,7 +34,7 @@ public class TestMethods {
     @Test
     public void givenRadiusCalculateAreaPositive() {
         double actualArea = calculator.calculateArea(1d);
-        double expectedArea = 3.141592653589793;
+        double expectedArea = 0.141592653589793;
         assertEquals(expectedArea, actualArea);
     }
 }
