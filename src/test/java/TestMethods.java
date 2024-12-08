@@ -26,6 +26,7 @@ public class TestMethods {
         assertEquals(6, result);
     }
 
+
     @Test
     public void testDivisionByZeroNegative() {
         assertThrows(IllegalArgumentException.class, () -> calculator.divide(5, 0));
